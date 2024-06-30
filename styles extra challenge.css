@@ -1,0 +1,16 @@
+.logo {background-image: url("logo revised.jpg"); background-repeat: no-repeat; background-size: cover;}
+.img {opacity: 300%;}
+body {margin-left: 50px;}
+h2 {margin-left: 50px; text-align: left; color: rgb(32, 32, 29); letter-spacing: 5px; text-decoration: underline; text-decoration-color: yellowgreen;}
+p {text-indent: 50px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px; color: rgb(186, 214, 24); font-weight: bolder;} 
+table {margin-left: 50px; margin-right: auto; table-layout: auto; border: 5px solid;}
+th {text-transform: uppercase; word-wrap: break-word; font-size: 20px; font-style: oblique; color: bisque; padding-right: 30px; background-color: brown;}
+td {padding: 20px; font-size: large; color: blue; background-color: rgb(184, 184, 17);}
+video {margin-left: 50px; margin-right: auto; width: 300px; height: 300px;}
+img {margin-left: 50px; width: 250px; height: 250px; border-radius: 30%; }
+audio {background-color: blue; margin-left: 50px}
+.sidebar {text-align: center; text-transform: capitalize; font-style: italic; border: 5px dashed; border-color: rgb(71, 224, 10); border-top-color: rgb(223, 226, 14); margin-left: 85%; }
+.container div {width: 210px; margin: 50px; text-align: center; border: 1px solid grey; display: inline-block;
+}
+.container p{color: black;} 
+.container img {width: 200px; border: 5px solid red; border-radius: 50%; margin: auto;}

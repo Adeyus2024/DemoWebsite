@@ -1,0 +1,26 @@
+h1 {text-align: center;color: brown; background-color: beige; }
+h5 {color: yellow; background-color: brown;}
+
+body {background-image: url("logo revised.jpg"); background-size: cover; backdrop-filter: grayscale(50%) blur(8px);animation: logo_anim 60s linear infinite;}
+@keyframes logo_anim{
+    0%{background-position: 0 0;}
+    100%{background-position: -2122px 0;}
+} 
+.navigationBar {display: flex; flex-direction: row; justify-content: flex-end; gap: 50px;}
+.container{display: flex; gap: 20px; background-image: url("moon.jpg"); background-size: cover; justify-content: center;  flex-shrink: 2; background-repeat: no-repeat; flex-flow: row wrap;margin-left: 50px; }
+
+.container img{border-radius: 50%; }
+
+.container div {border: 2px solid red; width: min-content; text-align: center; border-style: dashed;text-transform: capitalize; flex: 2 2 auto;}
+
+.containerM {display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; }
+
+.container2 {display: flex; background-image: url("info arrow.jpg"); background-size: auto; background-position: top; background-repeat: no-repeat; flex-flow: column wrap; width: 20%; text-align: justify; color: rgb(125, 245, 12); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+.container2 h3 {text-align: center; color: red; background-color: rgb(204, 236, 23)}
+.container3 {display: flex; width: 50%; flex-flow: column wrap; border: 5px outset pink; color: brown;}
+.container3 h3 {text-align: center; color: blanchedalmond; background-color: black;}
+.container4 { display: flex; flex-direction: column; width:20%; justify-content: flex-start; gap: 50px; }
+.container4 audio{width: 200px;}
+
+.juice {color: rgb(233, 237, 6); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-stretch: expanded; border: 5px outset brown;  border-style: dashed; background-color: black; text-align: justify;}
+.juice h3 {text-align: center; background-color: blue;}
